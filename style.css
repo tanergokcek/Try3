@@ -1,0 +1,284 @@
+/* Don't change the existing CSS. */
+
+.box {
+    background-color: blue;
+    padding: 10px;
+  }
+  
+  p {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+    
+    /*  made by taner*/
+  
+  }
+  
+  .white-text{
+    color: white;
+  }
+  
+  .inner-box{                                            /* !!!!! arada boşluk 2 sınıf olduğunnu gösteriyo */
+    background-color: red;
+  }
+  
+  #outer-box{
+    background-color: purple;
+    /*  border:10px solid purple; */
+  
+  }/*                                                 !!!!  SIRAYI BÖYLE YAPMAYA ALIŞ.
+  
+  #outer-box {
+    background-color: purple;
+  }
+  
+  .box {
+    background-color: blue;
+    padding: 10px;
+  }
+  
+  .inner-box {
+    background-color: red;
+  }
+  
+  p {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  
+  
+  
+  
+  */
+
+
+
+  
+
+/*--7.1////////////////////////////////////////////////////////////////////////////// */  
+
+h1 ,h2 {                            /* .class, #id falan da virgülle ayrılabilir.*/
+  color: blueviolet;
+}
+
+.box-v2 > .p{                          /*  2.  .p de olabilir */
+  color: firebrick;
+}
+
+.box-v2 li {
+  color: blue;
+}
+li.done{                            /* !!!!!!!!!! */
+  color: seagreen;
+}
+
+ul p.done{                         /* ul > p.done*     böylede yapilir. */
+  font-size: 0.5rem;
+}
+
+
+/*--7.2////////////////////////////////////////////////////////////////////////////// */  
+
+
+.blue-box{
+
+  background-color: blue;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 200x;
+  top: 200px;
+  
+  
+
+
+}
+
+.red-circle{
+  background-color:red ;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+
+  border-radius: 50%;         /* daire boyle yapilir.   */
+
+ 
+
+
+}
+
+
+/*--7.3////////////////////////////////////////////////////////////////////////////// */  
+
+.flag{
+  background-color: #CE1126;
+  width: 900px;
+  height: 600px;
+
+  position: relative;       /* !!!!!!!!! */
+}
+
+.flag >div{           /* ÇOCUK !!!!!!!!! */ 
+
+  background-color:#002868 ;
+  height: 300px;          /* YARISI KADAR YER KAPLAR*/    
+  width: 100%;
+
+  position: absolute;     /* !!!!!!!!! */
+
+  top: 150px;
+}
+
+.flag > div >div{        /* ÇOCUK(TEK OLDUĞU İÇİN) DAİRE DİVİ */   
+
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+  top:50px;             /*!!!*/
+  left: 350px;          /*!!!*/
+
+  position: absolute;  /*!!!*//*!!!*//*!!!*/       
+
+}       
+
+#id-p{
+
+  font-size: 5rem;        /*!!!bu buyutme kullan.*/
+  text-align: center;
+  color: white;
+  padding: 0;         /*!!!*/
+  margin: 0;          /*!!!*/
+
+}
+
+.flag>div div #id-p {     /* !!!!!!!!! */ 
+  color: black;
+}
+
+
+/*--8.0////////////////////////////////////////////////////////////////////////////// */  
+
+/*goal 2 */
+
+p {
+  color: white;
+}
+
+.red {
+  display: block;                   /* !!!! */
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-bottom: 10px;
+}
+
+.green {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin-bottom: 10px;
+}
+
+.blue {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
+/*goal 1 */
+
+p {
+  color: white;
+}
+
+.red-2 {
+  display: inline-block;                   /*  $$$$ YANA YAPAR. */
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.green-2 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.blue-2 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+
+/*--8.1////////////////////////////////////////////////////////////////////////////// */  
+
+
+
+#id-div {
+  display: inline-block;
+  width: 40%;
+ 
+}
+
+#id-div-2 {
+  display: inline-block;
+  width: 40%;
+ 
+}
+
+#id-p-first{
+  font-size: 2em;
+  
+  
+}
+
+#id-image-cat{                                       
+  float: left;
+}
+
+.cat {
+  background-color: aquamarine;
+  float: left;                                    /*   $$$  divi sola alır*/
+ 
+  
+}
+
+.dog {
+  background-color: coral;
+  float: right;                                   /*   $$$  divi sağa alır*/
+  
+}
+
+footer {
+  text-align: center;
+  background-color: blueviolet;
+  clear: both;                                  /* !!! */
+  
+}
+
+/*--8.2////////////////////////////////////////////////////////////////////////////// */  
+
+/*inline sekilde html e yazdim.*/
+
+/*--8.3////////////////////////////////////////////////////////////////////////////// */  
+
+
+
+
+
